@@ -1,0 +1,15 @@
+clear all;
+close all;
+A=6;
+f=100;
+RG1=3000;
+RG2=2000;
+VDD=16;
+RD=4;
+RL=12;
+VP=3;
+b=1.5;
+Id=2.66;
+VA=100;
+N=4;
+tranzistor(A,f,RG1,RG2,RD,RL,VP,b,Id,VA,VDD,N);
